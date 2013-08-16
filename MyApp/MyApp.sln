@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{E32FA497-8084-4BCD-A0FC-2B7E1250F5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CAAB0D79-9078-4611-B2C1-B09F1ECE62BB}"
+	ProjectSection(SolutionItems) = preProject
+		MyAppContext.cs = MyAppContext.cs
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		Thing.cs = Thing.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E32FA497-8084-4BCD-A0FC-2B7E1250F5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32FA497-8084-4BCD-A0FC-2B7E1250F5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32FA497-8084-4BCD-A0FC-2B7E1250F5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32FA497-8084-4BCD-A0FC-2B7E1250F5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
